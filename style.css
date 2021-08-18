@@ -1,0 +1,35 @@
+h1{
+    color: #FFEBCD;
+    background-color: black;
+    font-family: fantasy;
+}
+.grid{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.item{
+    border: solid;
+    color:blanchedalmond;
+    position: relative;
+    margin: 10px;
+}
+.item h3{
+    padding-left: 35%;
+    font-family: cursive;
+}
+
+.item p{
+    position: relative;
+    transform: translate(20%,50%);
+    opacity: 0;
+}
+
+.item:hover p{
+    opacity: 1;
+}
+
+.item:hover img{
+    opacity: 0.25;
+}
